@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <base href="https://esrkr.github.io/web/#/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -33,13 +33,13 @@
   }
 
   .loading-dot {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 0 5px;
     border-radius: 50%;
     background-color: #FFC107; /* Amber color */
     opacity: 0;
-    animation: loading 1s infinite;
+    animation: loading 0.651s infinite;
   }
 
   .loading-dot:nth-child(1) {
@@ -47,11 +47,11 @@
   }
 
   .loading-dot:nth-child(2) {
-    animation-delay: 0.2s;
+    animation-delay: 0.13s;
   }
 
   .loading-dot:nth-child(3) {
-    animation-delay: 0.4s;
+    animation-delay: 0.26s;
   }
 
   @keyframes loading {
@@ -59,9 +59,17 @@
       opacity: 0;
       transform: scale(0);
     }
+    25% {
+      opacity: 1;
+      transform: scale(0.5);
+    }
     50% {
       opacity: 1;
       transform: scale(1);
+    }
+    75% {
+      opacity: 1;
+      transform: scale(0.5);
     }
     100% {
       opacity: 0;
@@ -71,7 +79,7 @@
   </style>
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2742827896';
+    var serviceWorkerVersion = '1939709359';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
