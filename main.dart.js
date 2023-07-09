@@ -35825,7 +35825,7 @@ return A.S(null,r)}})
 return A.T($async$$0,r)},
 $S:21}
 A.Zl.prototype={
-$0(){A.KX("https://firebasestorage.googleapis.com/v0/b/esrkr-web.appspot.com/o/eSRKR.apk?alt=media&token=08d257a1-cba9-43ed-948c-f8a1063c5aa3")},
+$0(){A.KX("https://firebasestorage.googleapis.com/v0/b/esrkr-web.appspot.com/o/16.apk?alt=media&token=347da9c3-e3f1-4247-9c2b-d52a7d2e2ed4")},
 $S:0}
 A.fO.prototype={
 C(){return"AnimationStatus."+this.b}}
